@@ -3,7 +3,7 @@ import pandas as pd
 import googlemaps
 from datetime import datetime
 
-API_KEY = "AIzaSyCd4PydTlkAScqLcfNMFwHDf8NrZuG5SVA"
+API_KEY = "<Your google cloud console API key>"
 gmaps = googlemaps.Client(key=API_KEY)
 
 st.title("Generate Lead List")
